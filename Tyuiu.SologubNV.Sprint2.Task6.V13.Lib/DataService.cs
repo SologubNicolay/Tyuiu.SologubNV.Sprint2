@@ -1,7 +1,7 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint2;
 namespace Tyuiu.SologubNV.Sprint2.Task6.V13.Lib
 {
-    public class DataService : ISprint2Task5V13
+    public class DataService : ISprint2Task6V13
     {
         public string FindDateOfNextDay(int g, int m, int n)
         {
