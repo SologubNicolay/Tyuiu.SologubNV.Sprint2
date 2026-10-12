@@ -15,7 +15,7 @@ namespace Tyuiu.SologubNV.Sprint2.Task1.V20.Test
             bool[] res = new bool[6];
             res = ds.GetLogicOperations(a, b, c, d);
             bool[] wait = new bool[6] { false, false,false,true,true,true };
-            CollectionAssert.AreEqual(res, wait);
+            CollectionAssert.AreEqual(wait, res);
         }
     }
 }
